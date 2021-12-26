@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Form 1</title>
+</head>
+<style>
+    table{
+      margin: auto;
+    }
+    .tableStyle td {
+      padding: 5px;
+    }
+    .tableStyle {
+    width: 32%;
+    }
+    
+</style>
+<body>
+    <form>
+        <table class="tableStyle" border="1">
+          <tr align = "center">
+              <td colspan="2">Đăng kí</td>
+          </tr>
+          <tr align = "left">
+            <td width = "30%">FullName</td>
+            <td>
+                <input type="text" placeholder="Nhập FullName" style="width: 90%">
+            </td>
+          </tr>
+          <tr align = "left">
+            <td width = "30%">UserName</td>
+            <td>
+                <input type="text" placeholder="Nhập UserName" style="width: 90%">
+            </td>
+          </tr>
+          <tr align = "left">
+            <td width = "30%">Password</td>
+            <td>
+                <input type="text" placeholder="Nhập Password" style="width: 90%">
+            </td>
+          </tr>
+          <tr align = "left">
+            <td width = "30%">Nhập Lại Password</td>
+            <td>
+                <input type="text" placeholder="Nhập Lại Password" style="width: 90%">
+            </td>
+          </tr>
+          <tr align = "left">
+            <td width = "30%">Giới tính</td>
+            <td>
+                <input type="radio" name="gioi_tinh">Nam
+                <input type="radio" name="gioi_tinh">Nữ
+            </td>
+          </tr>
+          <tr align = "left">
+            <td width = "30%">Ngày Sinh</td>
+            <td>
+                <select name="" id="">
+                    <option value="">Ngày 10</option>
+                    <option value="">Ngày 22</option>
+                    <option value="">Ngày 27</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Tháng 7</option>
+                    <option value="">Tháng 8</option>
+                    <option value="">Tháng 9</option>
+                </select>
+                <select name="" id="">
+                    <option value="">Năm 2001</option>
+                    <option value="">Năm 2021</option>
+                </select>
+            </td>
+          </tr>
+          <tr align = "left">
+            <td width = "30%">Địa chỉ</td>
+            <td>
+                <textarea name="" id="" cols="20" rows="3"></textarea>
+            </td>
+          </tr>
+          <tr align = "left">
+            <td width = "30%">Avatar</td>
+            <td>
+                <input type="file" accept="image/*">
+            </td>
+          </tr>
+          <tr align = "left">
+            <td width = "30%">Sở thích</td>
+            <td>
+                <input type="checkbox"> Xem Phim
+                <input type="checkbox"> Web
+                <input type="checkbox"> IT
+            </td>
+          </tr>
+          <tr align = "center">
+              <td colspan="2">
+                <button type="reset">Reset</button>
+                <button>OK</button>
+              </td>
+          </tr>
+        </table>
+    </form>
+</body>
+</html>
